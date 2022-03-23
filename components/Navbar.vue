@@ -68,7 +68,7 @@
             alt=""
             class="h-8 rounded-full mr-2"
           />
-          <span class="mr-1">
+          <span class="mr-1" style="min-width: 80px">
             {{ this.$store.state.auth.user.name }}
           </span>
           <svg
